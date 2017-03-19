@@ -1,14 +1,15 @@
 // utility classes
 
 .txt {
-  &--w700 {
-    font-weight: 700;
-  }
-  &--w900 {
-    font-weight: 900;
-  }
+    &--w700 {
+        font-weight: 700;
+    }
+
+    &--w900 {
+        font-weight: 900;
+    }
 }
 
 .responsive-ratio {
-  @include aspect-ratio(16, 9);
+    @include aspect-ratio(16, 9);
 }
